@@ -117,10 +117,11 @@
                 />
               </label>
               <!--TODO - add for/id attribute pairs to other input/labels -->
-              <label for="" class="form__label">
+              <label for="number-of-guests-input" class="form__label">
                 Number of guests *
                 <input
                   class="form__input"
+                  id="number-of-guests-input"
                   type="number"
                   min="1"
                   max="8"
@@ -128,22 +129,31 @@
                   required
                 />
               </label>
-              <label for="" class="form__label">
+              <label for="datetime-input" class="form__label">
                 Date & Time *
-                <input class="form__input" type="datetime-local" required />
+                <input
+                  class="form__input"
+                  id="datetime-input"
+                  type="datetime-local"
+                  required
+                />
               </label>
-              <label for="" class="form__label">
+              <label for="email-input" class="form__label">
                 Your email *
                 <input
                   class="form__input"
+                  id="email-input"
                   type="email"
                   placeholder="email@email.com"
                 />
               </label>
             </fieldset>
             <button class="form__button">Book a Table</button>
-            <label for="" class="form__label form__label_type_checkbox">
-              <input class="form__checkbox" type="checkbox" />
+            <label
+              for="terms-input"
+              class="form__label form__label_type_checkbox"
+            >
+              <input class="form__checkbox" id="terms-input" type="checkbox" />
               I agree with the terms of use
             </label>
           </form>
