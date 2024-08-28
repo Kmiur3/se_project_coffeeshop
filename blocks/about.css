@@ -2,3 +2,76 @@
   width: 480px;
   height: 273px;
 }
+
+.about {
+  padding: 100px 80px;
+  background-color: #0a2850;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  gap: 120px;
+}
+
+.about__title {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 251px;
+  z-index: 1;
+}
+
+.about__title:hover {
+  text-decoration: none;
+  color: #1f69c9;
+}
+
+.about__content {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  max-width: 660px;
+  z-index: 1;
+  gap: 20px;
+}
+
+.about__circle {
+  background-color: #1878dc;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+}
+
+.about__circle_animation_blurred {
+  opacity: 0.6;
+  animation: pulse 1.3s ease-in-out infinite alternate;
+}
+
+@keyframes pulsate {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.5);
+  }
+}
+
+.about__paragraph {
+  margin: 0 0 32px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}
