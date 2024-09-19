@@ -14,6 +14,7 @@
 }
 
 .about__title {
+  color: #fff;
   margin: 0;
   font-family: "Inter";
   font-style: normal;
@@ -73,6 +74,7 @@
 }
 
 .about__paragraph {
+  color: #fff;
   margin: 0 0 32px;
   font-family: "Noto Serif";
   font-style: normal;
