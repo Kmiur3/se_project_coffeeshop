@@ -1,11 +1,7 @@
-.recipes__iframe {
-  width: 480px;
-  height: 273px;
-}
-
 .about {
-  padding: 100px 80px;
+  padding: 100px 80px 173px;
   background-color: #0a2850;
+  justify-content: space-between;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
@@ -16,7 +12,7 @@
 .about__title {
   color: #fff;
   margin: 0;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -41,6 +37,7 @@
 
 .about__circle {
   background-color: #1878dc;
+  margin-top: 19px;
   width: 426px;
   height: 426px;
   border-radius: 50%;
@@ -54,7 +51,6 @@
   width: 426px;
   height: 426px;
   border-radius: 50%;
-  position: absolute;
   top: -152px;
   left: -129px;
   animation: pulsate 1.3s ease-in-out infinite;
@@ -75,8 +71,8 @@
 
 .about__paragraph {
   color: #fff;
-  margin: 0 0 32px;
-  font-family: "Noto Serif";
+  margin: 0 0 20px;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

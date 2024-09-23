@@ -20,6 +20,10 @@
   line-height: 20px;
 }
 
+.nav__link:hover {
+  opacity: 50%;
+}
+
 .nav__links {
   display: flex;
   padding: 0;

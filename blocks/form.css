@@ -32,6 +32,7 @@
 }
 
 .form__button {
+  color: #ffff;
   border-radius: 4px;
   width: 100%;
   border: none;
