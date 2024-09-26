@@ -29,6 +29,7 @@
 }
 
 .recipes__videos {
+  border: none;
   display: flex;
   gap: 40px;
   justify-content: center;
